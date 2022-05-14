@@ -16,35 +16,81 @@
 <body>
     <header class="hero">
         <nav class="nav container">
-            <div class="nav_logo">
-                <h2 class="nav_title">Curso CSS</h2>
+            <div class="nav__logo">
+                <h2 class="nav__title">Curso CSS</h2>
             </div>
-            <ul class="nav_link nav_link--menu">
-                <li class="nav_items">
-                    <a href="#" class="nav_links">Inicio</a>
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
                 </li>
-                <li class="nav_items">
-                    <a href="#" class="nav_links">Acerca de</a>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Acerca de</a>
                 </li>
-                <li class="nav_items">
-                    <a href="#" class="nav_links">Contacto</a>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Contacto</a>
                 </li>
-                <li class="nav_items">
-                    <a href="#" class="nav_links">Blog</a>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Blog</a>
                 </li>
-                <img src="./assets/close.svg" class="nav_close" alt="close icon">
+                <img src="./assets/close.svg" class="nav__close" alt="close icon">
             </ul>
-            <div class="nav_menu">
-                <img src="./assets/menu.svg" class="nav_img" alt="menu icon">
+            <div class="nav__menu">
+                <img src="./assets/menu.svg" class="nav__img" alt="menu icon">
             </div>
         </nav>
-        <section class="section hero_container">
-            <h1 class="hero_title">Aprende CSS3 desde CERO hasta dominarlo.</h1>
-            <p class="hero_paragraph">Elige aprender CSS de una vez por todas, una vez que termines este curso serás
+        <section class="hero__container container">
+            <h1 class="hero__title">Aprende CSS3 desde CERO hasta dominarlo.</h1>
+            <p class="hero__paragraph">Elige aprender CSS de una vez por todas, una vez que termines este curso serás
                 capaz de cear cualquier layout con CSS y crear tus propias animaciones.</p>
             <a href="#" class="cta">Comienza ahora</a>
         </section>
     </header>
+    <main>
+        
+        <section class="container about">
+            <h2>¿Qué aprenderás en este curso?</h2>
+            <p class="about__paragraph">>Todo lo necesario y obligatorio de CSS, (Flexbox, Grid, Custom properties,
+                Position, Animaciones, Box Model y más)</p>
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./images/shapes.svg" class="about__icon" alt="icono de sombras">
+                    <h3 class="about__title">CSS Layouts</h3>
+                    <p class="about__paragrahp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+                        ab sed repellendus atque!</p>
+
+                </article>
+                <article class="about__icons">
+                    <img src="./images/paint.svg" class="about__icon" alt="icono de pintar">
+                    <h3 class="about__title">Animaciones</h3>
+                    <p class="about__paragrahp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+                        ab sed repellendus atque!</p>
+
+                </article>
+                <article class="about__icons">
+                    <img src="./images/code.svg" class="about__icon" alt="icono de code">
+                    <h3 class="about__title">Sass</h3>
+                    <p class="about__paragrahp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+                        ab sed repellendus atque!</p>
+
+                </article>
+            </div>
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledge__texts">
+                    <h2 class="subtitle"> Curso completo de CSS3. ¡Domina CSS de una vez por todas!</h2>
+                    <p class="knowledge__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi,
+                        aliquam nemo in facere suscipit at delectus unde labore ad officia iste accusantium eaque
+                        aperiam laborum est voluptate totam? Modi, obcaecati?</p>
+                    <a href="#" class="cta">Entra al curso</a>
+                </div>
+                <figure class="knowledge__picture">
+                    <img src="./images/macbook.png" alt="macbook" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
